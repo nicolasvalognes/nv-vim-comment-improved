@@ -6,7 +6,7 @@ Work well coupled with [jellyscheme colorscheme](https://github.com/nicolasvalog
 
 `:Todo` -> Add a todo comment with the current date at the line above
 ``` c
-// TODO - 2019-04-17 -
+// TODO (2019-04-19|developer_name)
 ```
 Available comment type commands :
 * :Todo
@@ -16,3 +16,5 @@ Available comment type commands :
 * :Note
 * :Info
 * :Idea
+
+use `let g:developer_name="your name"` to set your name in comment
